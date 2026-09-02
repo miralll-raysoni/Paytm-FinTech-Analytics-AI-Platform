@@ -1,7 +1,7 @@
-**----------------------------Paytm FinTech Analytics & AI Platform--------------------------**
-**===========================================================================================**
-**Part 1 — Payments & Fraud Analytics (/payments_fraud_analytics)**
-**===========================================================================================**
+**----------------------------------------------------Paytm FinTech Analytics & AI Platform----------------------------------------------**
+**===================================================================================================**
+                                          **Part 1 — Payments & Fraud Analytics (/payments_fraud_analytics)**
+**===================================================================================================**
     
     **Part A — Excel/Sheets merchant workbook**
         **Module Requirements & Scope**
@@ -401,9 +401,9 @@
             Layer 4: Details Layer (Merchant Risk Performance Table)
                 Examining the top 10 merchants by transaction volume reveals significant risk concentration, with 7 out of 10 merchants flagged as HIGH RISK for exceeding the 1.0% per-merchant chargeback ratio threshold. Merchant_027 and Merchant_029 exhibit severe risk profiles with chargeback ratios of 18.75% and 15.79% respectively, driven by 3 disputes each. Conversely, high-volume entities like Merchant_016 (20 txns, ₹11,130 GMV) and Merchant_009 (18 txns, ₹4,982 GMV) maintained a 0.00% dispute rate, proving that elevated volume does not inherently correlate with fraud exposure.        
 
-**==========================================================================================================================================================================**
-                                                       Part 2 — Credit Risk & Lending ML (/credit_risk_lending_ml)
-**==========================================================================================================================================================================**
+**===================================================================================================**
+                Part 2 — Credit Risk & Lending ML (/credit_risk_lending_ml)
+**===================================================================================================**
     
     Part A — EDA and preprocessing
         **Module Requirements & Scope**
@@ -603,9 +603,9 @@
         Final Model Deployment Recommendation
             We recommend deploying the Logistic Regression model for Paytm Postpaid credit scoring, alongside the Isolation Forest pipeline for real-time transaction anomaly detection. Logistic Regression achieves a strong ROC-AUC of 0.7188 and 76.00% Accuracy, outperforming the unconstrained Decision Tree (0.5188 ROC-AUC and 65.00% Accuracy), which degrades to near-random guessing. Furthermore, Logistic Regression generates well-calibrated, monotonic risk tier probabilities—scaling observed default rates strictly from 8.00% in Tier 1 to 40.00% in Tier 4—enabling precise risk-based pricing. Operating in tandem, the Isolation Forest model secures transaction monitoring by capturing 73.33% of seeded fraud anomalies.
             
-**==========================================================================================================================================================================**  
-                                              Part 3 — AI-Augmented FinTech Advisory & Blockchain Risk (/ai_advisory_blockchain)
-**==========================================================================================================================================================================**
+**===================================================================================================**
+      Part 3 — AI-Augmented FinTech Advisory & Blockchain Risk (/ai_advisory_blockchain)
+**===================================================================================================**
     
     Part A — Portfolio advisory agent (agentic think-act-observe pattern)
         **Module Requirements & Scope**
