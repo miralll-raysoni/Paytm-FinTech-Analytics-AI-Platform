@@ -1,6 +1,6 @@
 **----------------------------Paytm FinTech Analytics & AI Platform--------------------------**
 **===========================================================================================**
-                  **Part 1 — Payments & Fraud Analytics (/payments_fraud_analytics)**
+**Part 1 — Payments & Fraud Analytics (/payments_fraud_analytics)**
 **===========================================================================================**
     
     **Part A — Excel/Sheets merchant workbook**
